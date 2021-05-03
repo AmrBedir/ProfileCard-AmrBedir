@@ -1,0 +1,272 @@
+.pCard_card .pCard_back a i {
+  margin: 10px;
+  padding: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.pCard_card .pCard_back a i:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.pCard_card .pCard_back a:nth-of-type(1) i {
+  color: #3b5998;
+  border: 2px solid #3b5998;
+}
+
+.pCard_card .pCard_back a:nth-of-type(2) i {
+  color: #0077b5;
+  border: 2px solid #0077b5;
+}
+
+.pCard_card .pCard_back a:nth-of-type(3) i {
+  color: #1769ff;
+  border: 2px solid #1769ff;
+}
+
+.pCard_card .pCard_back a:nth-of-type(4) i {
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.pCard_card .pCard_back a:nth-of-type(5) i {
+  color: #eb5e95;
+  border: 2px solid #eb5e95;
+}
+
+.pCard_card .pCard_back a:nth-of-type(6) i {
+  color: #3f729b;
+  border: 2px solid #3f729b;
+}
+
+.pCard_card .pCard_up .pCard_add i {
+  color: white;
+  font-size: 38px;
+  line-height: 88px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f1f9fc;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+
+.pCard_card {
+  width: 400px;
+  height: 615px;
+  margin: 50px auto;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #f6fcfe;
+  -webkit-box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.21);
+  -ms-box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.21);
+  -o-box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.21);
+  position: relative;
+  overflow: hidden;
+}
+
+/****************
+Back
+****************/
+
+.pCard_card .pCard_back {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-top: -139px;
+  font-weight: 600;
+  z-index: 1;
+}
+.pCard_card .pCard_back a {
+  text-decoration: none;
+}
+
+/****************
+UP
+****************/
+
+.pCard_card .pCard_up {
+  position: absolute;
+  width: 100%;
+  height: 437px;
+  background-image: url(https://scontent.fcai21-1.fna.fbcdn.net/v/t1.6435-9/110312291_1262459280760824_8613655204841385212_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeEmXGXBHi-4murci9bXhgL0qknxIt9nbFyqSfEi32dsXB-uH-EuUHycVDJSUFC3fuBy0sW3juhkzIYUGeZV2OMm&_nc_ohc=GWarcO6iD1wAX9tJ-Db&_nc_ht=scontent.fcai21-1.fna&oh=982efe0f238baba4923e1d03346feb88&oe=60A15884);
+  background-position: 50%;
+  background-size: cover;
+  z-index: 3;
+  text-align: center;
+  -webkit-border-top-left-radius: 30px;
+  -moz-border-top-left-radius: 30px;
+  -ms-border-top-left-radius: 30px;
+  -o-border-top-left-radius: 30px;
+  border-top-left-radius: 30px;
+  -webkit-border-top-right-radius: 30px;
+  -moz-border-top-right-radius: 30px;
+  -ms-border-top-right-radius: 30px;
+  -o-border-top-right-radius: 30px;
+  border-top-right-radius: 30px;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.pCard_on .pCard_up {
+  height: 100px;
+  box-shadow: 0 0 30px #cfd8dc;
+}
+
+.pCard_card .pCard_up .pCard_text {
+  position: absolute;
+  top: 319px;
+  left: 0;
+  right: 0;
+  color: #f1f7f9;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.pCard_on .pCard_up .pCard_text {
+  top: 20px;
+}
+
+.pCard_card .pCard_up .pCard_text h2 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.pCard_card .pCard_up .pCard_text p {
+  margin: 0;
+  font-size: 16px;
+  color: #e3f1f5;
+}
+
+.pCard_card .pCard_up .pCard_add {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #ed145b;
+  -webkit-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+  -ms-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+  -o-box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.43);
+  position: absolute;
+  top: 392px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 88px;
+  height: 88px;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.pCard_on .pCard_up .pCard_add {
+  -webkit-transform: rotate(360deg) scale(0.5);
+  -moz-transform: rotate(360deg) scale(0.5);
+  -ms-transform: rotate(360deg) scale(0.5);
+  -o-transform: rotate(360deg) scale(0.5);
+  transform: rotate(360deg) scale(0.5);
+  top: 470px;
+}
+
+/****************
+Down
+****************/
+
+.pCard_card .pCard_down {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 178px;
+  z-index: 2;
+  -webkit-border-bottom-left-radius: 30px;
+  -moz-border-bottom-left-radius: 30px;
+  -ms-border-bottom-left-radius: 30px;
+  -o-border-bottom-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  -moz-border-bottom-right-radius: 30px;
+  -ms-border-bottom-right-radius: 30px;
+  -o-border-bottom-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.pCard_on .pCard_down {
+  height: 100px;
+  -webkit-box-shadow: 0 0 30px #cfd8dc;
+  -moz-box-shadow: 0 0 30px #cfd8dc;
+  -ms-box-shadow: 0 0 30px #cfd8dc;
+  -o-box-shadow: 0 0 30px #cfd8dc;
+  box-shadow: 0 0 30px #cfd8dc;
+}
+
+.pCard_card .pCard_down div {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.pCard_on .pCard_down div {
+  margin-top: 10px;
+}
+
+.pCard_card .pCard_down div p:first-of-type {
+  color: #68818c;
+  margin-bottom: 5px;
+}
+
+.pCard_card .pCard_down div p:last-of-type {
+  color: #334750;
+  font-weight: 700;
+  margin-top: 0;
+}
